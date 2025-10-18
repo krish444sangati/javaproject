@@ -33,6 +33,6 @@ jobs:
       with:
         image: krishsk0988/javaproject
         registry: docker.io
-        username: krishsk0988@gmail.com
-        password: Sahara@mano123
+        username: ${{secrets.username}}
+        password: ${{secrets.password}}
          
